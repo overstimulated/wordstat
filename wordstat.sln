@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordstat", "wordstat\wordst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordstat.Tests", "wordstat.Tests\wordstat.Tests.csproj", "{EB10CEAA-8F00-44DD-AA46-86753027CA88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordStatisticsProcessor.cs", "WordStatisticsProcessor.cs\WordStatisticsProcessor.cs.csproj", "{813685C8-6A2C-428B-B358-2BDE863DA85D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EB10CEAA-8F00-44DD-AA46-86753027CA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB10CEAA-8F00-44DD-AA46-86753027CA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB10CEAA-8F00-44DD-AA46-86753027CA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813685C8-6A2C-428B-B358-2BDE863DA85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813685C8-6A2C-428B-B358-2BDE863DA85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813685C8-6A2C-428B-B358-2BDE863DA85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813685C8-6A2C-428B-B358-2BDE863DA85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

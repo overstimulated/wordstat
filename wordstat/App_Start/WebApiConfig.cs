@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
+using wordstat.AppFormatterHelper;
 
 namespace wordstat
 {
@@ -10,6 +8,8 @@ namespace wordstat
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+
+            config.Formatters.Add(new BrowserJsonFormatter());
 
             // Web API routes
             config.MapHttpAttributeRoutes();
